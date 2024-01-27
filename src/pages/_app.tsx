@@ -1,6 +1,20 @@
-import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
+import React from 'react';
+import type { AppProps } from 'next/app';
+import { Layout } from '@/components/Layout';
+import { useRouter } from 'next/router';
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+
+const App = ({ Component, pageProps }: AppProps) => {
+
+  const router = useRouter()
+
+  return router.pathname === "/login" ?
+    (<Component {...pageProps} />) :
+    (
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+    )
 }
+
+export default App;
