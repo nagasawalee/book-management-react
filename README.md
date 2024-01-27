@@ -9,13 +9,14 @@ The Book Management System is a full stack project, including complete frontend 
 
 This repository is **frontend** part.
 
+Refer to [backend part](https://github.com/nagasawalee/book-management-backend)
+
 ### Data API
 I prepared [mock API](https://apifox.com/apidoc/shared-567e8a7f-ce65-4c99-9924-97e44579d780) for this react project.
 
    ```shell
    destination: 'https://mock.apifox.com/m1/3852138-0-default/api/:path*'
    ```
-
 
 You can also use local nodejs server service with backend.
   
@@ -24,8 +25,11 @@ You can also use local nodejs server service with backend.
   ```
 
 ### System Structure
+![](https://github.com/nagasawalee/book-management-react/blob/main/screenshot/Mind%20Map.png)
 
 ### Demo
+![](https://github.com/nagasawalee/book-management-react/blob/main/screenshot/loginpage.png)
+[Demo Video](https://github.com/nagasawalee/book-management-react/tree/main/screenshot)
 
 ## Getting Started
 1. Download the code, enter the project directory in terminal
